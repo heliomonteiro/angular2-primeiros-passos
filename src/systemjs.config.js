@@ -6,6 +6,7 @@
   System.config({
     paths: {
       // paths serve as alias
+      // alias para a pasta node_modules
       'npm:': 'node_modules/'
     },
     // map tells the System loader where to look for things
@@ -14,7 +15,8 @@
       app: 'app',
 
       // angular bundles
-      '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
+      // angular bundles
+      '@angular/core': 'npm:@angular/core/bundles/core.umd.js', //universal module definition
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
       '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
       '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
